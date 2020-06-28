@@ -5,7 +5,7 @@ const showcase = () => {
     <div>
       <header id='showcase'>
         <div className='showcase-content '>
-          <h1 className='l-heading'>The Sky Is Limit for me</h1>
+          <h1 className='l-heading'>The Sky Is Limit</h1>
           <p className='lead'>
             {' '}
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
