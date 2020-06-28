@@ -6,21 +6,24 @@ const Header = () => {
         <h1 className='logo'>
           <span className='text-primary'>
             {' '}
-            <i className='fas fa-book-open'></i> Edge
+            <i className='fas fa-book-open'></i> Edge{' '}
           </span>{' '}
-          Ledger
+          Ledger{' '}
         </h1>
         <ul>
           <li>
             <a href='#home'>Home</a>
           </li>
           <li>
+            {' '}
             <a href='#what'>What</a>
           </li>
           <li>
+            {' '}
             <a href='#who'>Who</a>
           </li>
           <li>
+            {' '}
             <a href='#contact'>Contact</a>
           </li>
         </ul>
@@ -28,5 +31,4 @@ const Header = () => {
     </div>
   );
 };
-
 export default Header;

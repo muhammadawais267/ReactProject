@@ -5,19 +5,17 @@ const What = () => {
     <div>
       <section id='what' className='bg-light py-1'>
         <div className='container'>
-          <h2 className='m-heading text-center'>
-            <span className='text-primary'>What </span>
-            We do
-          </h2>
+          <h3 className='m-heading text-center'>
+            <span className='text-primary'>What</span> We do
+          </h3>
           <div className='items'>
             <div className='item'>
               <i className='fas fa-university fa-2x'></i>
               <div>
                 <h3>Investment Banking</h3>
                 <p>
-                  {' '}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  voluptatibus debitis praesentium inventore, eum dese
                 </p>
               </div>
             </div>
@@ -26,9 +24,8 @@ const What = () => {
               <div>
                 <h3>Portfolio Management</h3>
                 <p>
-                  {' '}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  voluptatibus debitis praesentium inventore, eum dese
                 </p>
               </div>
             </div>
@@ -37,9 +34,8 @@ const What = () => {
               <div>
                 <h3>Tax & Custidlo</h3>
                 <p>
-                  {' '}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                  ipsum dolor sit amet consectetur adipisicing elit.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  voluptatibus debitis praesentium inventore, eum dese
                 </p>
               </div>
             </div>

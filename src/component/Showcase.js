@@ -1,12 +1,13 @@
 import React from 'react';
 
-export default function showcase() {
+const showcase = () => {
   return (
     <div>
       <header id='showcase'>
-        <div className='showcase-content'>
-          <h1 className='l-heading'>The Sky Is The Limit</h1>
+        <div className='showcase-content '>
+          <h1 className='l-heading'>The Sky Is Limit</h1>
           <p className='lead'>
+            {' '}
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
             voluptatibus debitis praesentium inventore, eum deserunt.
           </p>
@@ -17,4 +18,5 @@ export default function showcase() {
       </header>
     </div>
   );
-}
+};
+export default showcase;
