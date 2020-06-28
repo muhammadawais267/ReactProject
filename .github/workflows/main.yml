@@ -38,4 +38,4 @@ jobs:
         run: npm install -g surge
 
       - name: deploying surge
-        run: surge ./build http://react-edgeledger.surge.sh/ --token {{secrets.REACT_EDGE_LEDGER}}
+        run: surge ./build http://react-edgeledger.surge.sh/ --token{{secrets.REACT_EDGE_LEDGER}}
