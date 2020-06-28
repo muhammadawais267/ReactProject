@@ -50,7 +50,6 @@ const Contact = () => {
         </div>
       </section>
 
-      <div className='map'>{/* <Map /> */}</div>
       <footer id='main-footer' className='bg-dark text-center py-1'>
         <p>Copyright &copy; 2020, EdgeLedger, All Rights Reserved</p>
       </footer>
