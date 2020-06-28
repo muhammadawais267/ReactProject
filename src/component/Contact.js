@@ -1,5 +1,5 @@
 import React from 'react';
-import map from './map';
+import Map from './Map';
 
 const Contact = () => {
   return (
@@ -49,24 +49,13 @@ const Contact = () => {
           </form>
         </div>
       </section>
-      <div className='map'></div>
+
+      <div className='map'>
+        <Map />
+      </div>
       <footer id='main-footer' className='bg-dark text-center py-1'>
         <p>Copyright &copy; 2020, EdgeLedger, All Rights Reserved</p>
       </footer>
-
-      {/* <!-- JQuery CDN --> */}
-      <script
-        src='https://code.jquery.com/jquery-3.3.1.min.js'
-        integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='
-        crossorigin='anonymous'
-      ></script>
-
-      {/* <!-- Google Maps --> */}
-      <script
-        src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDoZg2Es_GrQHZf_52j2-xZ3cTfBCR0HII&callback=initMap'
-        async
-        defer
-      ></script>
     </div>
   );
 };

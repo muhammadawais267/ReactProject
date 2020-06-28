@@ -5,7 +5,6 @@ import What from './component/What';
 import Whoe from './component/Whoe';
 import Clients from './component/Clients';
 import Contact from './component/Contact';
-import map from './component/map';
 
 import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
@@ -19,7 +18,6 @@ function App() {
       <Whoe />
       <Clients />
       <Contact />
-      <map />
     </div>
   );
 }
